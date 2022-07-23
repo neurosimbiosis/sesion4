@@ -1,0 +1,31 @@
+homepage:
+    path: /
+    controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController::urlRedirectAction
+    defaults:
+        path: /cliente
+        permanent: true
+
+app_cliente_index:
+    path: /cliente
+    controller: App\Controller\Cliente\IndexController
+    methods: GET
+
+app_cliente_new:
+    path: /cliente/new
+    controller: App\Controller\Cliente\NewController
+    methods: GET|POST
+
+app_cliente_show:
+    path: /cliente/{id}
+    controller: App\Controller\Cliente\ShowController
+    methods: GET
+
+app_cliente_edit:
+    path: /cliente/{id}/edit
+    controller: App\Controller\Cliente\EditController
+    methods: GET|POST
+
+app_cliente_delete:
+    path: /cliente/{id}/delete
+    controller: App\Controller\Cliente\DeleteController
+    methods: GET|POST
