@@ -8,6 +8,11 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
+/**
+ * Representa obtención de datos desde el servidor al igual que IndexController
+ * HTTP Method: GET
+ * HTTP Status Code: 200, 404
+ */
 class ShowController extends AbstractController
 {
     /** @required */

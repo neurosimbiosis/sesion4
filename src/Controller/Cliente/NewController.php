@@ -9,6 +9,11 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+/**
+ * Representa creación de datos en el servidor
+ * HTTP Method: POST
+ * HTTP Status Code: 201, 400
+ */
 class NewController extends AbstractController
 {
     /** @required */

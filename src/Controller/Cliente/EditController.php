@@ -9,6 +9,11 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
+/**
+ * Representa actualización de datos en el servidor
+ * HTTP Method: PUT
+ * HTTP Status Code: 200, 400, 404
+ */
 class EditController extends AbstractController
 {
     /** @required */

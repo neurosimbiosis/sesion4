@@ -3,7 +3,7 @@ Neurosimbiosis
 
 Este proyecto es la base de ejemplo para la
 sesión 4 con la comunidad sobre el tema:
-Entendiendo los servicios REST 
+Entendiendo los servicios REST.
 
 Youtube
 -------
